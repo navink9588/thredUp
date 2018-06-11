@@ -1,0 +1,19 @@
+group 'com.thredup'
+version '0.1-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+apply plugin: 'application'
+mainClassName='com.thredUp.client.ClientMain'
+
+dependencies {
+    compile project(':common')
+}
