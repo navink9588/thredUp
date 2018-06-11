@@ -16,4 +16,5 @@ mainClassName='com.thredUp.client.ClientMain'
 
 dependencies {
     compile project(':common')
+    testCompile "junit:junit:4.12"
 }

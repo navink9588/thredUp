@@ -16,4 +16,5 @@ repositories {
 
 dependencies {
     compile project(':common')
+    testCompile "junit:junit:4.12"
 }
